@@ -265,6 +265,16 @@ body {
   max-width: 1000px;
 }
 
+@media (max-width: 925px) {
+  .content_grid {
+    max-width: 625px;
+  }
+  iframe {
+    width: 99%;
+    height: 100%;
+  }
+}
+
 /* Card Styles */
 .card {
   width: 470px;
